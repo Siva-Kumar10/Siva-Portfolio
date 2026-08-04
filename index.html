@@ -1,1 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siva Kumar | Portfolio</title>
+
+  <!-- UPDATE HERE: Change title if needed -->
+  <meta
+    name="description"
+    content="Portfolio of Siva Kumar - Summary, Skills, Projects, and Experience"
+  />
+
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link
+    href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap)"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+
+  <header class="hero">
+    <nav class="topbar container">
+      <div class="brand">
+        <!-- UPDATE HERE: Your name -->
+        <span class="brand-dot"></span>
+        <span>Siva Kumar</span>
+      </div>
+
+      <a class="resume-btn" href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <!-- UPDATE HERE: Main intro -->
+        <p class="eyebrow">Aspiring Software Developer</p>
+
+        <!-- UPDATE HERE: Name and tagline -->
+        <h1>
+          Hi, I'm <span class="highlight">Siva Kumar</span><br />
+          Building clean and practical digital experiences.
+        </h1>
+
+        <!-- UPDATE HERE: Short background summary -->
+        <p class="hero-description">
+          I recently graduated from <strong>XXX University</strong> and completed my education in
+          <strong>XXX</strong>. I am passionate about software development, problem-solving, and
+          building modern web applications with simple and user-friendly designs.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#portfolio-tabs" class="primary-btn">View Portfolio</a>
+          <a href="#contact" class="secondary-btn">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="status-pill">Open to Opportunities</div>
+
+        <div class="mini-card">
+          <p class="mini-label">Focus Areas</p>
+          <!-- UPDATE HERE: Replace with your real focus areas -->
+          <p class="mini-value">Web Development, JavaScript, Problem Solving</p>
+        </div>
+
+        <div class="mini-card">
+          <p class="mini-label">Education</p>
+          <!-- UPDATE HERE -->
+          <p class="mini-value">XXX University</p>
+        </div>
+
+        <div class="mini-card">
+          <p class="mini-label">Location</p>
+          <!-- UPDATE HERE -->
+          <p class="mini-value">India</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content" id="portfolio-tabs">
+    <section class="tabs-section">
+      <div class="tabs-header">
+        <p class="section-tag">Portfolio</p>
+        <h2>Summary, skills, projects, and experience</h2>
+      </div>
+
+      <div class="tabs-nav" role="tablist" aria-label="Portfolio sections">
+        <button class="tab-button active" data-tab="summary" role="tab" aria-selected="true">
+          Summary
+        </button>
+        <button class="tab-button" data-tab="skills" role="tab" aria-selected="false">
+          Skills
+        </button>
+        <button class="tab-button" data-tab="projects" role="tab" aria-selected="false">
+          Projects
+        </button>
+        <button class="tab-button" data-tab="experience" role="tab" aria-selected="false">
+          Experience
+        </button>
+      </div>
+
+      <div class="tab-panels">
+        <!-- SUMMARY TAB -->
+        <section class="tab-panel active" id="summary" role="tabpanel">
+          <div class="panel-card">
+            <h3>Professional Summary</h3>
+            <!-- UPDATE HERE: Replace with your actual summary -->
+            <p>
+              I am Siva Kumar, a recent graduate from <strong>XXX University</strong>. I completed
+              my education in <strong>XXX</strong> and am currently looking for opportunities to
+              begin my professional journey in software development. I enjoy learning new
+              technologies, solving real-world problems, and creating simple, efficient, and modern
+              digital solutions.
+            </p>
+
+            <p>
+              My interests include frontend development, JavaScript-based applications, responsive
+              interfaces, and continuously improving my technical skills through projects and
+              hands-on practice.
+            </p>
+          </div>
+        </section>
+
+        <!-- SKILLS TAB -->
+        <section class="tab-panel" id="skills" role="tabpanel">
+          <div class="panel-card">
+            <h3>Skills</h3>
+
+            <div class="skills-grid">
+              <div class="skill-box">
+                <h4>Programming</h4>
+                <!-- UPDATE HERE -->
+                <p>JavaScript, Java, Python, C</p>
+              </div>
+
+              <div class="skill-box">
+                <h4>Web Technologies</h4>
+                <!-- UPDATE HERE -->
+                <p>HTML, CSS, JavaScript, Responsive Design</p>
+              </div>
+
+              <div class="skill-box">
+                <h4>Tools</h4>
+                <!-- UPDATE HERE -->
+                <p>Git, GitHub, VS Code</p>
+              </div>
+
+              <div class="skill-box">
+                <h4>Core Concepts</h4>
+                <!-- UPDATE HERE -->
+                <p>Data Structures, OOP, Problem Solving</p>
+              </div>
+
+              <div class="skill-box">
+                <h4>Database</h4>
+                <!-- UPDATE HERE -->
+                <p>MySQL, SQL Basics</p>
+              </div>
+
+              <div class="skill-box">
+                <h4>Soft Skills</h4>
+                <!-- UPDATE HERE -->
+                <p>Communication, Teamwork, Adaptability, Quick Learning</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS TAB -->
+        <section class="tab-panel" id="projects" role="tabpanel">
+          <div class="panel-card">
+            <h3>Projects</h3>
+
+            <div class="project-grid">
+              <article class="project-card">
+                <!-- UPDATE HERE: Project 1 -->
+                <span class="project-tag">Featured</span>
+                <h4>Portfolio Website</h4>
+                <p>
+                  A responsive personal portfolio website built using HTML, CSS, and JavaScript to
+                  showcase profile, skills, projects, and experience in a modern tab-based layout.
+                </p>
+                <div class="project-stack">HTML • CSS • JavaScript</div>
+              </article>
+
+              <article class="project-card">
+                <!-- UPDATE HERE: Project 2 -->
+                <span class="project-tag">Project</span>
+                <h4>Student Management System</h4>
+                <p>
+                  A basic application to manage student records with features like adding, updating,
+                  viewing, and deleting student details.
+                </p>
+                <div class="project-stack">Java • SQL</div>
+              </article>
+
+              <article class="project-card">
+                <!-- UPDATE HERE: Project 3 -->
+                <span class="project-tag">Project</span>
+                <h4>Task Tracker App</h4>
+                <p>
+                  A lightweight task management application for organizing daily activities and
+                  tracking completion status with a clean interface.
+                </p>
+                <div class="project-stack">JavaScript • HTML • CSS</div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- EXPERIENCE TAB -->
+        <section class="tab-panel" id="experience" role="tabpanel">
+          <div class="panel-card">
+            <h3>Experience</h3>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <!-- UPDATE HERE: Replace if you have internship/job experience -->
+                <div class="timeline-date">Recent</div>
+                <div class="timeline-content">
+                  <h4>Fresher / Entry-Level Candidate</h4>
+                  <p>
+                    Currently seeking opportunities to start my career in software development and
+                    contribute to real-world projects while growing as a developer.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <!-- UPDATE HERE -->
+                <div class="timeline-date">Academic Phase</div>
+                <div class="timeline-content">
+                  <h4>Academic Projects and Technical Learning</h4>
+                  <p>
+                    Worked on personal and academic projects to strengthen programming fundamentals,
+                    web development skills, and practical problem-solving abilities.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <!-- UPDATE HERE -->
+                <div class="timeline-date">Education</div>
+                <div class="timeline-content">
+                  <h4>Graduated from XXX University</h4>
+                  <p>
+                    Completed graduation with a focus on building technical knowledge, discipline,
+                    and foundational skills for a software career.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-card">
+        <p class="section-tag">Contact</p>
+        <h2>Let's build something meaningful</h2>
+        <p>
+          <!-- UPDATE HERE -->
+          You can reach me for job opportunities, internships, collaborations, or technical
+          discussions.
+        </p>
+
+        <div class="contact-list">
+          <!-- UPDATE HERE -->
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <a href="[github.com](https://github.com/yourusername)" target="_blank" rel="noopener noreferrer">
+            github.com/yourusername
+          </a>
+          <a href="[linkedin.com](https://www.linkedin.com/in/your-linkedin/)" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/your-linkedin
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!-- UPDATE HERE -->
+    <p>© 2026 Siva Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
